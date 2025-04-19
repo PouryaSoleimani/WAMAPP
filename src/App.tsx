@@ -10,6 +10,7 @@ export function App() {
       <NavBarComponent />
       <HeaderTitleComponent />
       <HeaderButtonsTopComponent />
+      
       <CategoryGridSection />
     </div>
   );

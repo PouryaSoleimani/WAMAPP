@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactLogo from "../../public/image2.png"
 
-interface CategoryBoxComponentProps { title: string }
+interface CategoryBoxComponentProps { id: number, title: string }
 
-const CategoryBoxComponent = ({ id, title }) => {
+const CategoryGridBoxComponent: React.FC<CategoryBoxComponentProps> = ({ id, title }) => {
     return (
         <div className='border-2 border-green-800 rounded-xl bg-[#DDE2E5] text-black h-44 flex flex-col justify-between hover:scale-110 duration-300'>
             <img src={ReactLogo} alt='Category' width={90} className='rounded-t-lg' />
@@ -12,4 +12,4 @@ const CategoryBoxComponent = ({ id, title }) => {
     )
 }
 
-export default CategoryBoxComponent
+export default CategoryGridBoxComponent

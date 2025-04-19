@@ -1,5 +1,5 @@
 import React from 'react'
-import CategoryBoxComponent from '../modules/CategoryBoxComponent'
+import CategoryGridBoxComponent from '../modules/CategoryBoxComponent'
 
 const boxDatas = [
     { id: 1, title: "پزشکی" },
@@ -16,9 +16,8 @@ const CategoryGridSection = () => {
     return (
         <div className='border-4 border-red-800 GRID__PARENT'>
             {boxDatas.map((item) => (
-                <CategoryBoxComponent {...item} />
+                <CategoryGridBoxComponent {...item} />
             ))}
-
         </div>
     )
 }
