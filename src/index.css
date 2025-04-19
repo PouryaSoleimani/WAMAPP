@@ -54,3 +54,12 @@ body::before {
 		animation: none !important;
 	}
 }
+
+.GRID__PARENT {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-column-gap: 6px;
+	grid-row-gap: 6px;
+	padding: 1rem;
+}
