@@ -3,7 +3,7 @@ import React from 'react'
 const HeaderTitleComponent = () => {
     return (
         <div >
-            <h1 className='text-white font-black text-4xl bg-[#F92684] p-10 rounded-3xl tracking-tighter'>دریافت اعتبار خرید کالا</h1>
+            <h1 className='text-white font-black text-4xl bg-[#F92684] px-2 py-6 rounded-lg tracking-tighter'>دریافت اعتبار خرید کالا</h1>
         </div>
     )
 }
