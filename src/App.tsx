@@ -1,6 +1,7 @@
 import HeaderButtonsTopComponent from "./components/modules/HeaderButtonsTopComponent";
 import HeaderTitleComponent from "./components/modules/HeaderTitleComponent";
 import NavBarComponent from "./components/modules/NavBarComponent";
+import CategoryGridSection from "./components/templates/CategoryGridSection";
 import "./index.css";
 
 export function App() {
@@ -9,6 +10,7 @@ export function App() {
       <NavBarComponent />
       <HeaderTitleComponent />
       <HeaderButtonsTopComponent />
+      <CategoryGridSection/>
     </div>
   );
 }

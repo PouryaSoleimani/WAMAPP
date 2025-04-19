@@ -1,9 +1,19 @@
 import React from 'react'
+import CategoryBoxComponent from '../modules/CategoryBoxComponent'
 
 const CategoryGridSection = () => {
     return (
-        <div className='border border-red-800'>
-            CategoryGridSection
+        <div className='border-4 border-red-800'>
+           <CategoryBoxComponent/>
+           <CategoryBoxComponent/>
+           <CategoryBoxComponent/>
+           <CategoryBoxComponent/>
+           <CategoryBoxComponent/>
+           <CategoryBoxComponent/>
+           <CategoryBoxComponent/>
+           <CategoryBoxComponent/>
+           <CategoryBoxComponent/>
+           <CategoryBoxComponent/>
         </div>
     )
 }
