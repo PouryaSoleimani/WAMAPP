@@ -2,15 +2,15 @@ import React from 'react'
 import CategoryBoxComponent from '../modules/CategoryBoxComponent'
 
 const boxDatas = [
-    { id: 1, title: "لوازم فروشی" },
-    { id: 2, title: "معلم" },
-    { id: 3, title: "داروخانه" },
+    { id: 1, title: "پزشکی" },
+    { id: 2, title: "بازار مالی" },
+    { id: 3, title: " تحصیل" },
     { id: 4, title: "فریلنسری" },
-    { id: 5, title: "سرگرمی و مدیا" },
-    { id: 6, title: "شبکه اجتماعی" },
-    { id: 7, title: "بازار مالی" },
-    { id: 8, title: "ورزشی" },
-    { id: 9, title: "تحصیل" },
+    { id: 5, title: "گردشگری" },
+    { id: 6, title: "مد و فشن" },
+    { id: 7, title: " مالی" },
+    { id: 8, title: "رستوران" },
+    { id: 9, title: "لوازم دیجیتال" },
 ]
 const CategoryGridSection = () => {
     return (
