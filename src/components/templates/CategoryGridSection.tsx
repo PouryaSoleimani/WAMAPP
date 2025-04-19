@@ -13,7 +13,6 @@ const CategoryGridSection = () => {
            <CategoryBoxComponent/>
            <CategoryBoxComponent/>
            <CategoryBoxComponent/>
-           <CategoryBoxComponent/>
         </div>
     )
 }

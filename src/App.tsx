@@ -6,7 +6,7 @@ import "./index.css";
 
 export function App() {
   return (
-    <div className="container mx-auto text-center z-10 border-4 border-blue-800">
+    <div className="container mx-auto text-center z-10 border-4 border-blue-800 mt-32">
       <NavBarComponent />
       <HeaderTitleComponent />
       <HeaderButtonsTopComponent />
