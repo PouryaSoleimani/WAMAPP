@@ -114,6 +114,8 @@
 	--color-sidebar: var(--sidebar-background);
 	--animate-accordion-down: accordion-down 0.2s ease-out;
 	--animate-accordion-up: accordion-up 0.2s ease-out;
+	--pink : #F92684;
+	--cyan : #66D1DB;
 	
 	@keyframes accordion-down {
 		from {
