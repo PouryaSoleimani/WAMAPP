@@ -1,5 +1,5 @@
 import React from 'react'
-import CategoryGridBoxComponent from '../modules/CategoryBoxComponent'
+import CategoryGridBoxComponent from '../modules/CategoryGridBoxComponent'
 
 const boxDatas = [
     { id: 1, title: "پزشکی" },
