@@ -14,7 +14,7 @@ const boxDatas = [
 ]
 const CategoryGridSection = () => {
     return (
-        <div className='border-4 border-red-800 GRID__PARENT'>
+        <div className='GRID__PARENT'>
             {boxDatas.map((item) => (
                 <CategoryGridBoxComponent {...item} />
             ))}
