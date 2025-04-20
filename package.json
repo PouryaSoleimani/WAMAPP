@@ -6,9 +6,9 @@
     "main": "src/index.tsx",
     "module": "src/index.tsx",
     "scripts": {
-        "dev": "bun --hot  src/index.tsx",
+        "dev": "bun --hot src/index.tsx",
         "start": "NODE_ENV=production bun src/index.tsx",
-        "build": "bun build"
+        "build": "bun build src/index.tsx --outdir=dist --target=browser --minify --sourcemap"
     },
     "dependencies": {
         "@hookform/resolvers": "^4.1.0",
@@ -33,9 +33,5 @@
         "toggle-group": "^1.0.5",
         "zod": "^3.24.2"
     },
-    "devDependencies": {
-        "@types/react": "^19",
-        "@types/react-dom": "^19",
-        "@types/bun": "latest"
-    }
+    "devDependencies": { "@types/react": "^19", "@types/react-dom": "^19", "@types/bun": "latest" }
 }
