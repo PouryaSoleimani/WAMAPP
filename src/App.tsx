@@ -7,7 +7,7 @@ import "./index.css";
 
 export function App() {
   return (
-    <div className="container mx-auto text-center z-10 border-4 border-blue-800 mt-24" dir="rtl">
+    <div className="container mx-auto text-center z-10 mt-20" dir="rtl">
       <NavBarComponent />
       <HeaderTitleComponent />
       <HeaderButtonsTopComponent />

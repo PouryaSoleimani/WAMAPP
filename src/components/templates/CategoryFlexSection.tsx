@@ -7,7 +7,7 @@ const categoryFlexBoxesData = [
 ]
 const CategoryFlexSection = () => {
     return (
-        <div className='border-2 border-purple-800 flex items-center justify-center w-full gap-3 p-4'>
+        <div className='flex items-center justify-center w-full gap-3 p-4'>
             {categoryFlexBoxesData.map((item) => (
                 <CategoryFlexBoxComponent key={item.id} {...item} />
             ))}
