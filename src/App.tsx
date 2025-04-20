@@ -1,4 +1,3 @@
-import FooterComponent from "./components/modules/FooterComponent";
 import HeaderButtonsTopComponent from "./components/modules/HeaderButtonsTopComponent";
 import HeaderTitleComponent from "./components/modules/HeaderTitleComponent";
 import NavBarComponent from "./components/modules/NavBarComponent";
@@ -8,7 +7,7 @@ import "./index.css";
 
 export function App() {
   return (
-    <div className="container mx-auto text-center z-10 h-auto" dir="rtl">
+    <div className="container mx-auto text-center z-10 h-auto mt-20" dir="rtl">
       <NavBarComponent />
       <HeaderTitleComponent />
       <HeaderButtonsTopComponent />
